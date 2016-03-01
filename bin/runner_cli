@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+ENV['ENV'] ||= 'development'
+require 'standalone_app'
+puts "Launchpad!"
+
+# if production?
+  # pid = fork {
+    #Call the main method of your application here...
+    # sleep
+  # }
+  # Process.detach(pid)
+# else
+  #Call the main method of your application here...
+  # sleep
+# end
