@@ -4,7 +4,6 @@ require 'rake'
 require 'yaml'
 require 'logger'
 require 'active_record'
-require 'mysql2'
 
 
 #ActiveRecord database tasks.

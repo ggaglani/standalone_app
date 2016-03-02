@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "mysql2"
+  spec.add_development_dependency "jdbc-mysql"
+  spec.add_development_dependency "activerecord-jdbc-adapter"
   spec.add_development_dependency "activerecord"
 end

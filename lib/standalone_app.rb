@@ -6,7 +6,6 @@ require 'logger'
 require 'active_support'
 require 'active_support/time_with_zone'
 require 'active_record'
-require 'mysql2'
 require "standalone_app/version"
 
 unless defined?(DatabaseTasks)
